@@ -1,0 +1,142 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTodo {
+  onCreateTodo {
+    id
+    name
+    priority
+    description
+    time
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateTodo {
+  onUpdateTodo {
+    id
+    name
+    priority
+    description
+    time
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteTodo {
+  onDeleteTodo {
+    id
+    name
+    priority
+    description
+    time
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateMessage {
+  onCreateMessage {
+    id
+    message
+    time
+    sender
+    receiver
+    audioUrl
+    userUrl
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateMessage {
+  onUpdateMessage {
+    id
+    message
+    time
+    sender
+    receiver
+    audioUrl
+    userUrl
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteMessage {
+  onDeleteMessage {
+    id
+    message
+    time
+    sender
+    receiver
+    audioUrl
+    userUrl
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateUsers {
+  onCreateUsers {
+    id
+    name
+    email
+    password
+    language
+    language_code
+    voice
+    engine
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateUsers {
+  onUpdateUsers {
+    id
+    name
+    email
+    password
+    language
+    language_code
+    voice
+    engine
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteUsers {
+  onDeleteUsers {
+    id
+    name
+    email
+    password
+    language
+    language_code
+    voice
+    engine
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+  }
+}

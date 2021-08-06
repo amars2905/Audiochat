@@ -1,0 +1,34 @@
+enum Priority {
+  LOW
+  NORMAL
+  HIGH
+}
+
+type Todo @model {
+  id: ID!
+  name: String!
+  priority: Priority
+  description: String
+  time: String
+}
+
+type Message @model {
+  id: ID!
+  message: String
+  time: String
+  sender: String
+  receiver: String
+  audioUrl: String
+  userUrl: String
+}
+
+type Users @model {
+  id: ID!
+  name: String!
+  email: String!
+  password: String
+  language: String!
+  language_code: String
+  voice: String
+  engine: String
+}

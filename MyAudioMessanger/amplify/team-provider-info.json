@@ -1,0 +1,20 @@
+{
+  "amplify": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myaudiomessanger-amplify-201847-authRole",
+      "UnauthRoleArn": "arn:aws:iam::707581501534:role/amplify-myaudiomessanger-amplify-201847-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::707581501534:role/amplify-myaudiomessanger-amplify-201847-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myaudiomessanger-amplify-201847-deployment",
+      "UnauthRoleName": "amplify-myaudiomessanger-amplify-201847-unauthRole",
+      "StackName": "amplify-myaudiomessanger-amplify-201847",
+      "StackId": "arn:aws:cloudformation:us-east-1:707581501534:stack/amplify-myaudiomessanger-amplify-201847/322bdc60-dffc-11eb-b05b-12d2fa0db74d",
+      "AmplifyAppId": "d29hvwum2x7m1b"
+    },
+    "categories": {
+      "auth": {
+        "myaudiomessanger0fe8c4a9": {}
+      }
+    }
+  }
+}
